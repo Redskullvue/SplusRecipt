@@ -1,15 +1,15 @@
 <template>
-  <Test-component msg="Just Another Test"/>
+<home-page/>
 </template>
 
 <script>
-import TestComponent from './components/main.vue';
+import homePage from './components/main.vue'
 import "./assets/css/index.css"
-
+import "./assets/css/factor.css"
 export default {
   name: 'App',
-  components: {
-    TestComponent
+  components:{
+    homePage
   }
 }
 </script>
